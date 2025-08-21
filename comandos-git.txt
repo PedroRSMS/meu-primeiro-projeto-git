@@ -11,3 +11,8 @@ git status   - Mostra o status dos arquivos
 git branch - Lista branches ou cria uma nova branch
 git checkout - Muda para outra branch
 git push origin <branch> - Envia branch para o repositório remoto
+
+=== RESOLUÇÃO DE CONFLITOS ===
+git merge <branch> - Faz merge de uma branch (pode gerarconflitos)
+
+Quando há conflito: editar arquivo, remover marcações, git add, git commit
